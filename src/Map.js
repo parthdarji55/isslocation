@@ -46,7 +46,7 @@ class Map extends React.Component{
                 <p>Longitude: {this.state.center.lng}</p>
                 <div className = "map" style={{ height: '100vh', width: '100%' }}>
                     <GoogleMapReact className = "map"
-                        bootstrapURLKeys={{key: "AIzaSyCsyCYLsjzvO3Y2xTx5d0C-MVo6VadKMt8" }}
+                        bootstrapURLKeys={{key: "YOUR API KEY HERE" }}
                         center={this.state.center}
                         zoom={this.state.zoom}
                     >
