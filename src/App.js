@@ -38,7 +38,6 @@ YourLocation(city,state)
     })
   })
 let issPosition = [issLat,issLong]
-//"AIzaSyCsyCYLsjzvO3Y2xTx5d0C-MVo6VadKMt8"
   return (
     <div>
       <p>iss latitude:{issLat}</p>
