@@ -11,7 +11,7 @@ async function YourLocation(locationCity, locationState) {
 //  useEffect(() => {
 let lat = 0 
 let long =0
-  let userLocateUrl = 'https://maps.googleapis.com/maps/api/geocode/json?address='+locationCity+',+'+locationState+'&key=AIzaSyClQcgN2fo0yeOSsYlZjSyBmegXkCZu_ww'
+  let userLocateUrl = 'https://maps.googleapis.com/maps/api/geocode/json?address='+locationCity+',+'+locationState+'&key=YOUR API KEY HERE'
   let data = await(
     await fetch(userLocateUrl)
   ).json();
@@ -22,7 +22,7 @@ let long =0
 
 
 //    axios
-//      .get('https://maps.googleapis.com/maps/api/geocode/json?address='+locationCity+',+'+locationState+'&key=AIzaSyClQcgN2fo0yeOSsYlZjSyBmegXkCZu_ww')
+//      .get('https://maps.googleapis.com/maps/api/geocode/json?address='+locationCity+',+'+locationState+'&key=YOUR API KEY HERE')
 //      .then(({ data }) => {
 //        setLat(data.results[0].geometry.location.lat);
 //        setLong(data.results[0].geometry.location.lng);
