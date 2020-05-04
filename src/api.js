@@ -14,8 +14,8 @@ export const fetchLocation = async () => {
 
 export const fetchYourLocation = async () => {
   try {
-    const {data}= await axios.get('https://maps.googleapis.com/maps/api/geocode/json?address=1600+Amphitheatre+Parkway,+Mountain+View,+CA&key=AIzaSyClQcgN2fo0yeOSsYlZjSyBmegXkCZu_ww')
-//key = AIzaSyClQcgN2fo0yeOSsYlZjSyBmegXkCZu_ww
+    const {data}= await axios.get('https://maps.googleapis.com/maps/api/geocode/json?address=1600+Amphitheatre+Parkway,+Mountain+View,+CA&key=YOUR API KEY HERE')
+
 
     return data
   } catch (error) {
