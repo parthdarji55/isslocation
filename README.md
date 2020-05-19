@@ -17,3 +17,5 @@ all of this data is displayed nicely including a map with a visual
 Again, remember to replace "YOUR_API" with your own api key.
 
 I worked on this project with Preston Stecklein, you can find the pure Javascript version on his account - pstecklein
+
+preston here
